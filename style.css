@@ -52,6 +52,7 @@ a {
     background-color: gray;
     justify-content: center;
     align-items: center;
+    padding: 0 20px
 }
 
 .header-button {
@@ -178,7 +179,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px 0;
+    padding: 20px 40px;
     border-radius: 7px;
     gap: 300px;
 }
