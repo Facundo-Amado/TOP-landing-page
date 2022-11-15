@@ -4,6 +4,10 @@ body {
     flex-direction: column;
 }
 
+
+
+/**           HEADER              **/
+
 header {
     background-color: #1F2937;
     display: flex;
@@ -51,7 +55,7 @@ a {
 }
 
 .header-button {
-    color: white;
+    color: #F9FAF8;
     background-color: #3882F6;
     border: none;
     border-radius: 3px;
@@ -63,6 +67,7 @@ a {
     margin: 0;
     font-size: 48px;
     font-weight: bold;
+    color: #F9FAF8;
 }
 
 .main-content p {
@@ -78,4 +83,41 @@ a {
 .header-top p {
     font-size: 24px;
     color: #F9FAF8;
+}
+
+
+
+
+
+/**         INFO            **/
+
+.info {
+    padding: 30px;
+    text-align: center;
+}
+
+.info h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+}
+
+.cards {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+}
+
+.card-placeholder {
+    width: 150px;
+    height: 150px;
+    border: 3px solid #3882F6;
+    border-radius: 10%;
+}
+
+.a-card p {
+    width: 150px;
+    height: 150px;
+    margin-top: 8px;
 }
