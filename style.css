@@ -121,3 +121,39 @@ a {
     height: 150px;
     margin-top: 8px;
 }
+
+
+
+
+
+
+/**            QUOTE             **/
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+.quote-container h5 {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+    margin-top: 25px;
+    margin-bottom: 0;
+}
+
+.quote-container p {
+    margin-left: auto;
+    margin-top: 0;
+    font-weight: bold;
+}
