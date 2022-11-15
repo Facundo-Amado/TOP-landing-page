@@ -167,7 +167,7 @@ a {
 
 .call-to-action {
     display: flex;
-    height: 400px;
+    height: 300px;
     justify-content: center;
     align-items: center;
 }
@@ -203,4 +203,17 @@ a {
     border: 1px solid #F9FAF8;
     border-radius: 3px;
     padding: 5px 15px;
+}
+
+
+
+
+
+/**                FOOTER               **/
+
+footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    text-align: center;
+    margin-top: auto;
 }
